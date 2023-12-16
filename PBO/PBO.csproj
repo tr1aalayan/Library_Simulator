@@ -107,24 +107,6 @@
     <Compile Include="Framex\Dashboard-Form.Designer.cs">
       <DependentUpon>Dashboard-Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Framex\Edu-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\Edu-Form.Designer.cs">
-      <DependentUpon>Edu-Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Framex\Ensik-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\Ensik-Form.Designer.cs">
-      <DependentUpon>Ensik-Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Framex\HdP-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\HdP-Form.Designer.cs">
-      <DependentUpon>HdP-Form.cs</DependentUpon>
-    </Compile>
     <Compile Include="Framex\InfoBuku_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,41 +119,17 @@
     <Compile Include="Framex\Kel4-Form.Designer.cs">
       <DependentUpon>Kel4-Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Framex\Komik-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\Komik-Form.Designer.cs">
-      <DependentUpon>Komik-Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Framex\Litt-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\Litt-Form.Designer.cs">
-      <DependentUpon>Litt-Form.cs</DependentUpon>
-    </Compile>
     <Compile Include="Framex\Login-Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Framex\Login-Form.Designer.cs">
       <DependentUpon>Login-Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="Framex\NovSej-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\NovSej-Form.Designer.cs">
-      <DependentUpon>NovSej-Form.cs</DependentUpon>
-    </Compile>
     <Compile Include="Framex\PengembalianBuku-Form.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Framex\PengembalianBuku-Form.Designer.cs">
       <DependentUpon>PengembalianBuku-Form.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Framex\PinjamBuku-Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Framex\PinjamBuku-Form.Designer.cs">
-      <DependentUpon>PinjamBuku-Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Framex\Buku-Form.cs">
       <SubType>Form</SubType>
@@ -197,6 +155,24 @@
     <Compile Include="Framex\RakEnsik-Form.Designer.cs">
       <DependentUpon>RakEnsik-Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Framex\RakHukumPolitik-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Framex\RakHukumPolitik-Form.Designer.cs">
+      <DependentUpon>RakHukumPolitik-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framex\RakLiteratur-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Framex\RakLiteratur-Form.Designer.cs">
+      <DependentUpon>RakLiteratur-Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Framex\RakNovel-Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Framex\RakNovel-Form.Designer.cs">
+      <DependentUpon>RakNovel-Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Framex\TambahBuku-Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -208,38 +184,17 @@
     <EmbeddedResource Include="Framex\Dashboard-Form.resx">
       <DependentUpon>Dashboard-Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Framex\Edu-Form.resx">
-      <DependentUpon>Edu-Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Framex\Ensik-Form.resx">
-      <DependentUpon>Ensik-Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Framex\HdP-Form.resx">
-      <DependentUpon>HdP-Form.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Framex\InfoBuku_Form.resx">
       <DependentUpon>InfoBuku_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Framex\Kel4-Form.resx">
       <DependentUpon>Kel4-Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Framex\Komik-Form.resx">
-      <DependentUpon>Komik-Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Framex\Litt-Form.resx">
-      <DependentUpon>Litt-Form.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Framex\Login-Form.resx">
       <DependentUpon>Login-Form.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Framex\NovSej-Form.resx">
-      <DependentUpon>NovSej-Form.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Framex\PengembalianBuku-Form.resx">
       <DependentUpon>PengembalianBuku-Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Framex\PinjamBuku-Form.resx">
-      <DependentUpon>PinjamBuku-Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Framex\Buku-Form.resx">
       <DependentUpon>Buku-Form.cs</DependentUpon>
@@ -252,6 +207,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Framex\RakEnsik-Form.resx">
       <DependentUpon>RakEnsik-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framex\RakHukumPolitik-Form.resx">
+      <DependentUpon>RakHukumPolitik-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framex\RakLiteratur-Form.resx">
+      <DependentUpon>RakLiteratur-Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Framex\RakNovel-Form.resx">
+      <DependentUpon>RakNovel-Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Framex\TambahBuku-Form.resx">
       <DependentUpon>TambahBuku-Form.cs</DependentUpon>
@@ -390,6 +354,96 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Gambar\IMG-20230117-WA0000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_AMBA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_CANTIK ITU LUKA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_GADIS KRETEK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_Gadis Pantai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_Halaman Terakhir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_LAUT BERCERITA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_MAX HAVELAAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_ORANG-ORANG PROYEK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_Ronggeng dukuh paruk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NOVEL SEJARAH_Tenggelamnya Kapal Van Der Wijck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_DANAU TOBA.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_Jaka Tarub dan Nawang WulaN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_JOKO KENDIL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_LA NA DAN KERBAU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_MALIN KUNDANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_PUTRI TUJUH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_SANGKURIANG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_Si pesut Mahakam yang ramah.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_The Story Of Joko Bodo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DONGENG_TIMUN MAS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_ Seri Pemikir Hukum Teori Hans Kelsen Tentang Hukum.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Cyber Bullying Hak-hak Digital Right on Online Safety.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Filsafat Keadilan Biological Justice dan Praktiknya dalam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Hukum Adat Indonesia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Hukum Internasional Dalam Pusaran Politik dan Kekuasaan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Hukum Pidana Internasional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Matinya Kepakaran.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Omnibus Law %28Teori dan Penerapannya%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_Teknik Pembuatan Akta Badan Usaha di Era Digital.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HUKUM POLITIK_What Would Your Lawyer Say.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

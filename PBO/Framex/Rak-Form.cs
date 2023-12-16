@@ -17,6 +17,7 @@ namespace PBO.Framex
             InitializeComponent();
         }
 
+        public int selectedBookId {  get; set; }
         private void pictureBox_OnePeace_Click(object sender, EventArgs e)
         {
             // mengirim id buku ke InfoBuku_Form

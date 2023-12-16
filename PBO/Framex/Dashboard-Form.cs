@@ -26,11 +26,11 @@ namespace PBO.Framex
             login.Show();
         }
 
-        private void button_PinjamBuku_Click(object sender, EventArgs e)
+        /*private void button_PinjamBuku_Click(object sender, EventArgs e)
         {
             PinjamBuku_Form pinjam = new PinjamBuku_Form();
             pinjam.Show();
-        }
+        }*/
 
         private void button_PengembalianBuku_Click(object sender, EventArgs e)
         {
@@ -68,19 +68,19 @@ namespace PBO.Framex
 
         private void button_NovSej_Click(object sender, EventArgs e)
         {
-            NovSej_Form novel = new NovSej_Form();
+            RakNovel_Form novel = new RakNovel_Form();
             novel.Show();
         }
 
         private void button_HdP_Click(object sender, EventArgs e)
         {
-            HdP_Form hukum = new HdP_Form();
+            RakHukumPolitik_Form hukum = new RakHukumPolitik_Form();
             hukum.Show();
         }
 
         private void button_Litt_Click(object sender, EventArgs e)
         {
-            Litt_Form literatur = new Litt_Form();
+            RakLiteratur_Form literatur = new RakLiteratur_Form();
             literatur.Show();
         }
 

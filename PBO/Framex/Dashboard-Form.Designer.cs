@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button_Kelompok = new System.Windows.Forms.Button();
             this.button_PengembalianBuku = new System.Windows.Forms.Button();
-            this.button_PinjamBuku = new System.Windows.Forms.Button();
             this.button_Buku = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -58,7 +57,6 @@
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(181)))), ((int)(((byte)(149)))));
             this.panel1.Controls.Add(this.button_Kelompok);
             this.panel1.Controls.Add(this.button_PengembalianBuku);
-            this.panel1.Controls.Add(this.button_PinjamBuku);
             this.panel1.Controls.Add(this.button_Buku);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(12, 12);
@@ -69,7 +67,7 @@
             // button_Kelompok
             // 
             this.button_Kelompok.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Kelompok.Location = new System.Drawing.Point(18, 458);
+            this.button_Kelompok.Location = new System.Drawing.Point(18, 428);
             this.button_Kelompok.Name = "button_Kelompok";
             this.button_Kelompok.Size = new System.Drawing.Size(196, 65);
             this.button_Kelompok.TabIndex = 4;
@@ -80,7 +78,7 @@
             // button_PengembalianBuku
             // 
             this.button_PengembalianBuku.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_PengembalianBuku.Location = new System.Drawing.Point(18, 362);
+            this.button_PengembalianBuku.Location = new System.Drawing.Point(18, 314);
             this.button_PengembalianBuku.Name = "button_PengembalianBuku";
             this.button_PengembalianBuku.Size = new System.Drawing.Size(196, 65);
             this.button_PengembalianBuku.TabIndex = 3;
@@ -88,21 +86,10 @@
             this.button_PengembalianBuku.UseVisualStyleBackColor = true;
             this.button_PengembalianBuku.Click += new System.EventHandler(this.button_PengembalianBuku_Click);
             // 
-            // button_PinjamBuku
-            // 
-            this.button_PinjamBuku.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_PinjamBuku.Location = new System.Drawing.Point(18, 269);
-            this.button_PinjamBuku.Name = "button_PinjamBuku";
-            this.button_PinjamBuku.Size = new System.Drawing.Size(196, 65);
-            this.button_PinjamBuku.TabIndex = 2;
-            this.button_PinjamBuku.Text = "Pinjam Buku";
-            this.button_PinjamBuku.UseVisualStyleBackColor = true;
-            this.button_PinjamBuku.Click += new System.EventHandler(this.button_PinjamBuku_Click);
-            // 
             // button_Buku
             // 
             this.button_Buku.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_Buku.Location = new System.Drawing.Point(18, 179);
+            this.button_Buku.Location = new System.Drawing.Point(18, 201);
             this.button_Buku.Name = "button_Buku";
             this.button_Buku.Size = new System.Drawing.Size(196, 65);
             this.button_Buku.TabIndex = 1;
@@ -301,7 +288,6 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button button_PengembalianBuku;
-        private System.Windows.Forms.Button button_PinjamBuku;
         private System.Windows.Forms.Button button_Buku;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label_CloseDashboard;

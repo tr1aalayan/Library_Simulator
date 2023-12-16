@@ -40,6 +40,7 @@ namespace PBO.Dbs
             cmd.Parameters.Add("@Genre", MySqlDbType.VarChar).Value = buku.Genre;
             cmd.Parameters.Add("@Penerbit", MySqlDbType.VarChar).Value = buku.Penerbit;
             cmd.Parameters.Add("@Sinopsis", MySqlDbType.VarChar).Value = buku.Sinopsis;
+            cmd.Parameters.Add("@Cover", MySqlDbType.LongBlob).Value = buku.Cover;
             //cmd.Parameters.Add("@Status", MySqlDbType.VarChar).Value = buku.Status;
 
             try
@@ -69,6 +70,7 @@ namespace PBO.Dbs
             cmd.Parameters.Add("@Genre", MySqlDbType.VarChar).Value = buku.Genre;
             cmd.Parameters.Add("@Penerbit", MySqlDbType.VarChar).Value = buku.Penerbit;
             cmd.Parameters.Add("@Sinopsis", MySqlDbType.VarChar).Value = buku.Sinopsis;
+            cmd.Parameters.Add("@Cover", MySqlDbType.LongBlob).Value = buku.Cover;
 
             try
             {

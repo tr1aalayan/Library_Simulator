@@ -73,6 +73,106 @@ namespace PBO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_DANAU_TOBA {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_DANAU TOBA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_Jaka_Tarub_dan_Nawang_WulaN {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_Jaka Tarub dan Nawang WulaN", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_JOKO_KENDIL {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_JOKO KENDIL", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_LA_NA_DAN_KERBAU {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_LA NA DAN KERBAU", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_MALIN_KUNDANG {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_MALIN KUNDANG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_PUTRI_TUJUH {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_PUTRI TUJUH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_SANGKURIANG {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_SANGKURIANG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_Si_pesut_Mahakam_yang_ramah {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_Si pesut Mahakam yang ramah", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_The_Story_Of_Joko_Bodo {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_The Story Of Joko Bodo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DONGENG_TIMUN_MAS {
+            get {
+                object obj = ResourceManager.GetObject("DONGENG_TIMUN MAS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap EDUKASI_ALGORITMA_DAN_PEMROGRAMAN {
             get {
                 object obj = ResourceManager.GetObject("EDUKASI-ALGORITMA DAN PEMROGRAMAN", resourceCulture);
@@ -283,6 +383,106 @@ namespace PBO.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK__Seri_Pemikir_Hukum_Teori_Hans_Kelsen_Tentang_Hukum {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_ Seri Pemikir Hukum Teori Hans Kelsen Tentang Hukum", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Cyber_Bullying_Hak_hak_Digital_Right_on_Online_Safety {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Cyber Bullying Hak-hak Digital Right on Online Safety", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Filsafat_Keadilan_Biological_Justice_dan_Praktiknya_dalam {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Filsafat Keadilan Biological Justice dan Praktiknya dalam", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Hukum_Adat_Indonesia {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Hukum Adat Indonesia", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Hukum_Internasional_Dalam_Pusaran_Politik_dan_Kekuasaan {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Hukum Internasional Dalam Pusaran Politik dan Kekuasaan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Hukum_Pidana_Internasional {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Hukum Pidana Internasional", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Matinya_Kepakaran {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Matinya Kepakaran", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Omnibus_Law__Teori_dan_Penerapannya_ {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Omnibus Law (Teori dan Penerapannya)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_Teknik_Pembuatan_Akta_Badan_Usaha_di_Era_Digital {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_Teknik Pembuatan Akta Badan Usaha di Era Digital", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap HUKUM_POLITIK_What_Would_Your_Lawyer_Say {
+            get {
+                object obj = ResourceManager.GetObject("HUKUM POLITIK_What Would Your Lawyer Say", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap iginiii {
             get {
                 object obj = ResourceManager.GetObject("iginiii", resourceCulture);
@@ -396,6 +596,106 @@ namespace PBO.Properties {
         internal static System.Drawing.Bitmap KOMIK_TOKYO_REVENGERS {
             get {
                 object obj = ResourceManager.GetObject("KOMIK-TOKYO REVENGERS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_AMBA {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_AMBA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_CANTIK_ITU_LUKA {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_CANTIK ITU LUKA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_GADIS_KRETEK {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_GADIS KRETEK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_Gadis_Pantai {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_Gadis Pantai", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_Halaman_Terakhir {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_Halaman Terakhir", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_LAUT_BERCERITA {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_LAUT BERCERITA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_MAX_HAVELAAR {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_MAX HAVELAAR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_ORANG_ORANG_PROYEK {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_ORANG-ORANG PROYEK", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_Ronggeng_dukuh_paruk {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_Ronggeng dukuh paruk", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NOVEL_SEJARAH_Tenggelamnya_Kapal_Van_Der_Wijck {
+            get {
+                object obj = ResourceManager.GetObject("NOVEL SEJARAH_Tenggelamnya Kapal Van Der Wijck", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

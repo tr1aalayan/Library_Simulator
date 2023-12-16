@@ -32,6 +32,8 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label_TambahBuku = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.button_PilihSampul = new System.Windows.Forms.Button();
+            this.pictureBox_Sampul = new System.Windows.Forms.PictureBox();
             this.textBox_Genre = new System.Windows.Forms.TextBox();
             this.button_Simpan = new System.Windows.Forms.Button();
             this.textBox_Sinopsis = new System.Windows.Forms.TextBox();
@@ -45,6 +47,7 @@
             this.label_JudulBuku = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Sampul)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -70,6 +73,8 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.button_PilihSampul);
+            this.panel2.Controls.Add(this.pictureBox_Sampul);
             this.panel2.Controls.Add(this.textBox_Genre);
             this.panel2.Controls.Add(this.button_Simpan);
             this.panel2.Controls.Add(this.textBox_Sinopsis);
@@ -86,11 +91,35 @@
             this.panel2.Size = new System.Drawing.Size(521, 411);
             this.panel2.TabIndex = 0;
             // 
+            // button_PilihSampul
+            // 
+            this.button_PilihSampul.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(97)))), ((int)(((byte)(111)))));
+            this.button_PilihSampul.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_PilihSampul.ForeColor = System.Drawing.SystemColors.Control;
+            this.button_PilihSampul.Location = new System.Drawing.Point(319, 273);
+            this.button_PilihSampul.Name = "button_PilihSampul";
+            this.button_PilihSampul.Size = new System.Drawing.Size(136, 38);
+            this.button_PilihSampul.TabIndex = 8;
+            this.button_PilihSampul.Text = "Pilih Sampul";
+            this.button_PilihSampul.UseVisualStyleBackColor = false;
+            this.button_PilihSampul.Click += new System.EventHandler(this.button_PilihSampul_Click);
+            // 
+            // pictureBox_Sampul
+            // 
+            this.pictureBox_Sampul.BackColor = System.Drawing.Color.White;
+            this.pictureBox_Sampul.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox_Sampul.Location = new System.Drawing.Point(305, 65);
+            this.pictureBox_Sampul.Name = "pictureBox_Sampul";
+            this.pictureBox_Sampul.Size = new System.Drawing.Size(163, 202);
+            this.pictureBox_Sampul.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_Sampul.TabIndex = 7;
+            this.pictureBox_Sampul.TabStop = false;
+            // 
             // textBox_Genre
             // 
-            this.textBox_Genre.Location = new System.Drawing.Point(143, 219);
+            this.textBox_Genre.Location = new System.Drawing.Point(25, 219);
             this.textBox_Genre.Name = "textBox_Genre";
-            this.textBox_Genre.Size = new System.Drawing.Size(251, 22);
+            this.textBox_Genre.Size = new System.Drawing.Size(221, 22);
             this.textBox_Genre.TabIndex = 1;
             // 
             // button_Simpan
@@ -108,19 +137,19 @@
             // 
             // textBox_Sinopsis
             // 
-            this.textBox_Sinopsis.Location = new System.Drawing.Point(143, 269);
+            this.textBox_Sinopsis.Location = new System.Drawing.Point(25, 269);
             this.textBox_Sinopsis.Multiline = true;
             this.textBox_Sinopsis.Name = "textBox_Sinopsis";
-            this.textBox_Sinopsis.Size = new System.Drawing.Size(251, 73);
+            this.textBox_Sinopsis.Size = new System.Drawing.Size(221, 73);
             this.textBox_Sinopsis.TabIndex = 1;
             this.textBox_Sinopsis.UseSystemPasswordChar = true;
             // 
             // label4
             // 
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(140, 243);
+            this.label4.Location = new System.Drawing.Point(22, 243);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.Size = new System.Drawing.Size(70, 23);
             this.label4.TabIndex = 0;
             this.label4.Text = "Sinopsis :";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -128,61 +157,60 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(140, 192);
+            this.label3.Location = new System.Drawing.Point(22, 192);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.Size = new System.Drawing.Size(70, 23);
             this.label3.TabIndex = 0;
             this.label3.Text = "Genre :";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox_Penerbit
             // 
-            this.textBox_Penerbit.Location = new System.Drawing.Point(143, 167);
+            this.textBox_Penerbit.Location = new System.Drawing.Point(25, 167);
             this.textBox_Penerbit.Name = "textBox_Penerbit";
-            this.textBox_Penerbit.Size = new System.Drawing.Size(251, 22);
+            this.textBox_Penerbit.Size = new System.Drawing.Size(221, 22);
             this.textBox_Penerbit.TabIndex = 1;
-            
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(140, 141);
+            this.label2.Location = new System.Drawing.Point(22, 141);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.Size = new System.Drawing.Size(70, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Penerbit :";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox_Penulis
             // 
-            this.textBox_Penulis.Location = new System.Drawing.Point(143, 116);
+            this.textBox_Penulis.Location = new System.Drawing.Point(25, 116);
             this.textBox_Penulis.Name = "textBox_Penulis";
-            this.textBox_Penulis.Size = new System.Drawing.Size(251, 22);
+            this.textBox_Penulis.Size = new System.Drawing.Size(221, 22);
             this.textBox_Penulis.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(140, 90);
+            this.label1.Location = new System.Drawing.Point(22, 90);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.Size = new System.Drawing.Size(70, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Penulis :";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // textBox_JudulBuku
             // 
-            this.textBox_JudulBuku.Location = new System.Drawing.Point(143, 65);
+            this.textBox_JudulBuku.Location = new System.Drawing.Point(25, 65);
             this.textBox_JudulBuku.Name = "textBox_JudulBuku";
-            this.textBox_JudulBuku.Size = new System.Drawing.Size(251, 22);
+            this.textBox_JudulBuku.Size = new System.Drawing.Size(221, 22);
             this.textBox_JudulBuku.TabIndex = 1;
             // 
             // label_JudulBuku
             // 
             this.label_JudulBuku.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_JudulBuku.Location = new System.Drawing.Point(140, 39);
+            this.label_JudulBuku.Location = new System.Drawing.Point(22, 39);
             this.label_JudulBuku.Name = "label_JudulBuku";
-            this.label_JudulBuku.Size = new System.Drawing.Size(100, 23);
+            this.label_JudulBuku.Size = new System.Drawing.Size(70, 23);
             this.label_JudulBuku.TabIndex = 0;
             this.label_JudulBuku.Text = "Judul Buku :";
             this.label_JudulBuku.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -204,6 +232,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Sampul)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -224,5 +253,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button_Simpan;
         private System.Windows.Forms.TextBox textBox_Genre;
+        private System.Windows.Forms.PictureBox pictureBox_Sampul;
+        private System.Windows.Forms.Button button_PilihSampul;
     }
 }

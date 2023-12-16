@@ -118,8 +118,14 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="IMG-20230117-WA0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gambar\IMG-20230117-WA0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ENSIKLOPEDIA-ILMU PENGETAHUAN MODERN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-ILMU PENGETAHUAN MODERN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_Gadis Pantai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_Gadis Pantai.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="triaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\triaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -133,8 +139,20 @@
   <data name="ENSIKLOPEDIA-PSIKOLOGI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-PSIKOLOGI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NOVEL SEJARAH_Halaman Terakhir" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_Halaman Terakhir.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_AMBA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_AMBA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EDUKASI-FISIKA DASAR 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-FISIKA DASAR 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_Jaka Tarub dan Nawang WulaN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_Jaka Tarub dan Nawang WulaN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_DANAU TOBA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_DANAU TOBA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KOMIK-ONE PIECE" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\KOMIK-ONE PIECE.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +160,29 @@
   <data name="ENSIKLOPEDIA-BERGAMBAR SEJARAH DUNIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-BERGAMBAR SEJARAH DUNIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DONGENG_LA NA DAN KERBAU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_LA NA DAN KERBAU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EDUKASI-ARSITEKTUR DAN ORGANISASI KOMPUTER" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-ARSITEKTUR DAN ORGANISASI KOMPUTER.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_MAX HAVELAAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_MAX HAVELAAR.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_The Story Of Joko Bodo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_The Story Of Joko Bodo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_Si pesut Mahakam yang ramah" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_Si pesut Mahakam yang ramah.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KOMIK-DETEKTIF CONAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\KOMIK-DETEKTIF CONAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KOMIK-THEIR STORY" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\KOMIK-THEIR STORY.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="KOMIK-DRAGON BALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gambar\KOMIK-DRAGON BALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iginiii" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\iginiii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,11 +208,17 @@
   <data name="ENSIKLOPEDIA-PENDIDIKAN DAN PSIKOLOGI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-PENDIDIKAN DAN PSIKOLOGI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="KOMIK-DRAGON BALL" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Gambar\KOMIK-DRAGON BALL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NOVEL SEJARAH_GADIS KRETEK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_GADIS KRETEK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ENSIKLOPEDIA- MITOLOGI YUNANI " type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA- MITOLOGI YUNANI .png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_SANGKURIANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_SANGKURIANG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_ORANG-ORANG PROYEK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_ORANG-ORANG PROYEK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EDUKASI-KIMIA DASAR 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-KIMIA DASAR 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -187,20 +226,41 @@
   <data name="ENSIKLOPEDIA-SEJARAH NASIONAL DAN DUNIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-SEJARAH NASIONAL DAN DUNIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NOVEL SEJARAH_CANTIK ITU LUKA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_CANTIK ITU LUKA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EDUKASI-PEMROGRAMAN BERORIENTASI OBJEK C3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-PEMROGRAMAN BERORIENTASI OBJEK C3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="KOMIK-TOKYO REVENGERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Gambar\KOMIK-TOKYO REVENGERS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="EDUKASI-TEORI KESUSASTRAAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-TEORI KESUSASTRAAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="KOMIK-TOKYO REVENGERS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Gambar\KOMIK-TOKYO REVENGERS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_Tenggelamnya Kapal Van Der Wijck" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_Tenggelamnya Kapal Van Der Wijck.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ENSIKLOPEDIA-ASTRONOMI" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-ASTRONOMI.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="DONGENG_PUTRI TUJUH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_PUTRI TUJUH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_JOKO KENDIL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_JOKO KENDIL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_MALIN KUNDANG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_MALIN KUNDANG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="NOVEL SEJARAH_LAUT BERCERITA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_LAUT BERCERITA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="EDUKASI-ALGORITMA DAN PEMROGRAMAN" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\EDUKASI-ALGORITMA DAN PEMROGRAMAN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DONGENG_TIMUN MAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DONGENG_TIMUN MAS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Gabyy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\Gabyy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,13 +277,43 @@
   <data name="ENSIKLOPEDIA-ANATOMI TUBUH MANUSIA" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-ANATOMI TUBUH MANUSIA.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="NOVEL SEJARAH_Ronggeng dukuh paruk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOVEL SEJARAH_Ronggeng dukuh paruk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ENSIKLOPEDIA-SUKU,SENI DAN BUDAYA NASIONAL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ENSIKLOPEDIA-SUKU,SENI DAN BUDAYA NASIONAL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="KOMIK-HAIKYU" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Gambar\KOMIK-HAIKYU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="IMG-20230117-WA0000" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Gambar\IMG-20230117-WA0000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="HUKUM POLITIK_ Seri Pemikir Hukum Teori Hans Kelsen Tentang Hukum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_ Seri Pemikir Hukum Teori Hans Kelsen Tentang Hukum.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Cyber Bullying Hak-hak Digital Right on Online Safety" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Cyber Bullying Hak-hak Digital Right on Online Safety.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Filsafat Keadilan Biological Justice dan Praktiknya dalam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Filsafat Keadilan Biological Justice dan Praktiknya dalam.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Hukum Adat Indonesia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Hukum Adat Indonesia.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Hukum Internasional Dalam Pusaran Politik dan Kekuasaan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Hukum Internasional Dalam Pusaran Politik dan Kekuasaan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Hukum Pidana Internasional" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Hukum Pidana Internasional.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Matinya Kepakaran" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Matinya Kepakaran.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Omnibus Law (Teori dan Penerapannya)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Omnibus Law (Teori dan Penerapannya).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_Teknik Pembuatan Akta Badan Usaha di Era Digital" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_Teknik Pembuatan Akta Badan Usaha di Era Digital.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="HUKUM POLITIK_What Would Your Lawyer Say" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\HUKUM POLITIK_What Would Your Lawyer Say.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -29,23 +29,27 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button_Pinjam = new System.Windows.Forms.Button();
+            this.label_Sinopsis = new System.Windows.Forms.Label();
+            this.label_Penerbit = new System.Windows.Forms.Label();
+            this.label_Genre = new System.Windows.Forms.Label();
+            this.label_Penulis = new System.Windows.Forms.Label();
+            this.label_Judul = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label_JudulBuku1 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label_Judul = new System.Windows.Forms.Label();
-            this.label_Penulis = new System.Windows.Forms.Label();
-            this.label_Genre = new System.Windows.Forms.Label();
-            this.label_Penerbit = new System.Windows.Forms.Label();
-            this.label_Sinopsis = new System.Windows.Forms.Label();
+            this.label_status = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(97)))), ((int)(((byte)(111)))));
+            this.panel1.Controls.Add(this.label_status);
+            this.panel1.Controls.Add(this.button_Pinjam);
             this.panel1.Controls.Add(this.label_Sinopsis);
             this.panel1.Controls.Add(this.label_Penerbit);
             this.panel1.Controls.Add(this.label_Genre);
@@ -62,10 +66,90 @@
             this.panel1.Size = new System.Drawing.Size(776, 529);
             this.panel1.TabIndex = 0;
             // 
+            // button_Pinjam
+            // 
+            this.button_Pinjam.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(121)))), ((int)(((byte)(97)))), ((int)(((byte)(111)))));
+            this.button_Pinjam.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Pinjam.ForeColor = System.Drawing.SystemColors.Control;
+            this.button_Pinjam.Location = new System.Drawing.Point(635, 451);
+            this.button_Pinjam.Name = "button_Pinjam";
+            this.button_Pinjam.Size = new System.Drawing.Size(105, 46);
+            this.button_Pinjam.TabIndex = 23;
+            this.button_Pinjam.Text = "Pinjam";
+            this.button_Pinjam.UseVisualStyleBackColor = false;
+            this.button_Pinjam.Click += new System.EventHandler(this.button_Pinjam_Click);
+            // 
+            // label_Sinopsis
+            // 
+            this.label_Sinopsis.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Sinopsis.Location = new System.Drawing.Point(118, 295);
+            this.label_Sinopsis.Name = "label_Sinopsis";
+            this.label_Sinopsis.Size = new System.Drawing.Size(391, 212);
+            this.label_Sinopsis.TabIndex = 22;
+            // 
+            // label_Penerbit
+            // 
+            this.label_Penerbit.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Penerbit.Location = new System.Drawing.Point(118, 240);
+            this.label_Penerbit.Name = "label_Penerbit";
+            this.label_Penerbit.Size = new System.Drawing.Size(391, 23);
+            this.label_Penerbit.TabIndex = 21;
+            // 
+            // label_Genre
+            // 
+            this.label_Genre.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Genre.Location = new System.Drawing.Point(118, 192);
+            this.label_Genre.Name = "label_Genre";
+            this.label_Genre.Size = new System.Drawing.Size(391, 23);
+            this.label_Genre.TabIndex = 20;
+            // 
+            // label_Penulis
+            // 
+            this.label_Penulis.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Penulis.Location = new System.Drawing.Point(118, 135);
+            this.label_Penulis.Name = "label_Penulis";
+            this.label_Penulis.Size = new System.Drawing.Size(391, 23);
+            this.label_Penulis.TabIndex = 19;
+            // 
+            // label_Judul
+            // 
+            this.label_Judul.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_Judul.Location = new System.Drawing.Point(118, 82);
+            this.label_Judul.Name = "label_Judul";
+            this.label_Judul.Size = new System.Drawing.Size(391, 23);
+            this.label_Judul.TabIndex = 18;
+            // 
+            // label5
+            // 
+            this.label5.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(35, 295);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(100, 23);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Sinopsis  :";
+            // 
+            // label4
+            // 
+            this.label4.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(35, 240);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Penerbit  :";
+            // 
+            // label3
+            // 
+            this.label3.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(35, 192);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Genre      :";
+            // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(148, 139);
+            this.label2.Location = new System.Drawing.Point(35, 135);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(100, 23);
             this.label2.TabIndex = 14;
@@ -74,7 +158,7 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(148, 86);
+            this.label1.Location = new System.Drawing.Point(35, 82);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 13;
@@ -93,72 +177,13 @@
             this.label_JudulBuku1.Text = "Informasi Buku";
             this.label_JudulBuku1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // label_status
             // 
-            this.label3.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(148, 196);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 23);
-            this.label3.TabIndex = 15;
-            this.label3.Text = "Genre      :";
-            // 
-            // label4
-            // 
-            this.label4.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(148, 244);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
-            this.label4.TabIndex = 16;
-            this.label4.Text = "Penerbit  :";
-            // 
-            // label5
-            // 
-            this.label5.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(148, 299);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(100, 23);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Sinopsis  :";
-            // 
-            // label_Judul
-            // 
-            this.label_Judul.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Judul.Location = new System.Drawing.Point(231, 86);
-            this.label_Judul.Name = "label_Judul";
-            this.label_Judul.Size = new System.Drawing.Size(391, 23);
-            this.label_Judul.TabIndex = 18;
-            // 
-            // label_Penulis
-            // 
-            this.label_Penulis.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Penulis.Location = new System.Drawing.Point(231, 139);
-            this.label_Penulis.Name = "label_Penulis";
-            this.label_Penulis.Size = new System.Drawing.Size(391, 23);
-            this.label_Penulis.TabIndex = 19;
-            // 
-            // label_Genre
-            // 
-            this.label_Genre.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Genre.Location = new System.Drawing.Point(231, 196);
-            this.label_Genre.Name = "label_Genre";
-            this.label_Genre.Size = new System.Drawing.Size(391, 23);
-            this.label_Genre.TabIndex = 20;
-            // 
-            // label_Penerbit
-            // 
-            this.label_Penerbit.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Penerbit.Location = new System.Drawing.Point(231, 244);
-            this.label_Penerbit.Name = "label_Penerbit";
-            this.label_Penerbit.Size = new System.Drawing.Size(391, 23);
-            this.label_Penerbit.TabIndex = 21;
-            // 
-            // label_Sinopsis
-            // 
-            this.label_Sinopsis.Font = new System.Drawing.Font("Nirmala UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Sinopsis.Location = new System.Drawing.Point(231, 299);
-            this.label_Sinopsis.Name = "label_Sinopsis";
-            this.label_Sinopsis.Size = new System.Drawing.Size(391, 212);
-            this.label_Sinopsis.TabIndex = 22;
+            this.label_status.Font = new System.Drawing.Font("Nirmala UI", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_status.Location = new System.Drawing.Point(534, 84);
+            this.label_status.Name = "label_status";
+            this.label_status.Size = new System.Drawing.Size(206, 23);
+            this.label_status.TabIndex = 24;
             // 
             // InfoBuku_Form
             // 
@@ -189,5 +214,7 @@
         private System.Windows.Forms.Label label_Sinopsis;
         private System.Windows.Forms.Label label_Penerbit;
         private System.Windows.Forms.Label label_Genre;
+        private System.Windows.Forms.Button button_Pinjam;
+        private System.Windows.Forms.Label label_status;
     }
 }
